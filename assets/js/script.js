@@ -1,16 +1,37 @@
 $(function() {
-    var pass = $('#passwordResult').val();
 
-    var strength = 1;
-    var arr = [/.{5,}/, /[a-z]+/, /[0-9]+/, /[A-Z]+/];
-    jQuery.map(arr, function(regexp) {
-      if(pass.match(regexp))
-         strength++;
+    $(document).ready(function() {
+       if($("#passwordResult").val() != "" ) {
+
+           var pass = $('#passwordResult').val();
+           var strength = 1;
+           var arr = [/.{15,}/, /[a-z]+/, /[0-9]+/, /[A-Z]+/];
+           jQuery.map(arr, function(regexp) {
+             if(pass.match(regexp))
+                strength++;
+           });
+
+           for(var i =1;i<=strength;i++) {
+       
+               $('#pass-info'+i).addClass('pass-info'+i);
+           }
+           if( strength == 5) { 
+               
+               $('.passwordResultLetter').text('Senha muito forte.');
+           } else if( strength == 4) { 
+               
+               $('.passwordResultLetter').text('Senha forte.');
+           } else if(strength == 3) {
+               $('.passwordResultLetter').text('Senha moderada.');
+           } else if (strength == 2) {
+               $('.passwordResultLetter').text('Senha fraca.');
+           } else {
+               $('.passwordResultLetter').text('Senha muito fraca.');
+           }
+       }
     });
-    for(var i =1;i<=strength;i++) {
+    
 
-        $('#pass-info'+i).addClass('pass-info'+i);
-    }
 });
 
 function clickCopyBoard() {

@@ -60,7 +60,7 @@
                 </a>
             </div>
         </div>
-
+        <p class="passwordResultLetter" ></p>
         <div class="container-verification-seguration">
               <div id="progressbar" class="cols-verification-seguration">
                 <div id="pass-info1"></div>

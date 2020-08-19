@@ -116,7 +116,10 @@ nav a:hover {
     margin-right: 3px;
     border-radius: 5px;
 }
-/* 
-sac@fln.jamef.com.br thaisantunes@fln.jamef.com.br
-31 
-*/
+.passwordResultLetter {
+    width:100%;
+    margin-bottom:4px;
+    font-size:16px;
+    color:#fff;
+    padding:5px;
+}
