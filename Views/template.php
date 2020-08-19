@@ -6,7 +6,7 @@
         <meta name="author" content="João Marcus Cardoso">
 <!--    Icone     <link rel="icon" type="img/svg" href="<?php echo BASE_URL; ?>assets/images/logo_web_large.svg" /> 	
  -->		
-    <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>assets/css/bootstrap.min.css" />
 		<link  rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>assets/css/style.css" />
 
 
@@ -45,6 +45,7 @@
         <script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/bootstrap.bundle.min.js"></script>
         <script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/script.js" ></script>
+
         <script type="text/javascript"  >var BASE_URL = '<?php echo BASE_URL; ?>';</script>
     </body>
 

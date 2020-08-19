@@ -45,7 +45,7 @@
 
 
         <div class="form-group container-result-generation">
-            <label for="passwordResult" class="labelPasswordResult">Senha Gerada</label>
+            <label for="passwordResult"  class="labelPasswordResult">Senha Gerada</label>
             <div class="cols-result-generation">
 
                 <input type="text" name="password" id="passwordResult" class="form-control" value="<?php echo utf8_encode($user_password_generation); ?>"/>
@@ -61,6 +61,16 @@
             </div>
         </div>
 
+        <div class="container-verification-seguration">
+              <div id="progressbar" class="cols-verification-seguration">
+                <div id="pass-info1"></div>
+                <div id="pass-info2"></div>
+                <div id="pass-info3"></div>
+                <div id="pass-info4"></div>
+                <div id="pass-info5"></div>
+              </div>  
+        
+        </div>
 
 
     </div> 

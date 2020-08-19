@@ -86,3 +86,37 @@ nav a:hover {
     color:#fff;
     font-size: 15px;
 }
+.container-verification-seguration {
+
+    width:100%;
+    height:40px;
+    padding:5px;
+    background-color: #191919;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.cols-verification-seguration {
+    width:100%;
+    height:100%;
+
+}
+#progressbar {
+    display:flex;
+    justify-content:start;
+
+}
+.pass-info1,
+.pass-info2,
+.pass-info3,
+.pass-info4,
+.pass-info5 {
+    width:25%;
+    height:100%;
+    background-color:green;
+    margin-right: 3px;
+    border-radius: 5px;
+}
+/* 
+sac@fln.jamef.com.br thaisantunes@fln.jamef.com.br
+31 
+*/
