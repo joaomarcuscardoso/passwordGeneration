@@ -14,112 +14,17 @@ nav a:hover {
     color:#eee;
     text-decoration:underline!important;
 }
-/* Parte do mes */
-#container-month {
-    margin:0px;
-    display:flex;
-    height:91vh;
-
+.title-validation {
+    text-align: center;
+    margin-bottom:20px;
+}
+.form-container-validation {
+    margin-bottom:12px;
+}
+.btn-other-validation {
+ 
+    display: flex;
     justify-content: center;
-    align-items:center;
-}
+    margin:10px;
 
-.passowrd-col {
-
-    background-color: #000;
-}
-.form-password-generation {
-    margin-top:25px;
-}
-.labelGeneration {
-    color:#fff;
-
-}
-.inputGeneration {
-    margin-left:4px;
-    border-radius:4px;
-    width:15%;
-}
-
-.container-checkbox {
-    float:right;
-    display:block;
-    max-width: 250px;
-    width:40%;
-    padding-left: 10px;
-
-}
-.list-checkbox {
-
-    width:100%;
-    
-    font-size: 16px;
-    font-family: sans-serif;
-}
-
-.container-result-generation {
-    width: 100%;
-
-    padding:5px;
- 
-
-}
-.container-result-generation input {
-    float:left;
- 
-
-}
-.cols-result-generation {
-    display:flex;
-    width:100%;
-    justify-content: center;
- 
-}
-.container-copyboard {
-    margin-left:4px;
-    float:left;
-
- 
-
-}
-.labelPasswordResult {
-    color:#fff;
-    font-size: 15px;
-}
-.container-verification-seguration {
-
-    width:100%;
-    height:40px;
-    padding:5px;
-    background-color: #191919;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-.cols-verification-seguration {
-    width:100%;
-    height:100%;
-
-}
-#progressbar {
-    display:flex;
-    justify-content:start;
-
-}
-.pass-info1,
-.pass-info2,
-.pass-info3,
-.pass-info4,
-.pass-info5 {
-    width:25%;
-    height:100%;
-    background-color:green;
-    margin-right: 3px;
-    border-radius: 5px;
-}
-.passwordResultLetter {
-    width:100%;
-    margin-bottom:4px;
-    font-size:16px;
-    color:#fff;
-    padding:5px;
 }

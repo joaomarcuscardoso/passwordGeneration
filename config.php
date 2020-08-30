@@ -7,14 +7,14 @@ global $db;
 $config = array();
 
 if(ENVIRONMENT == 'development') {
-	define("BASE_URL", "http://localhost/passwordGeneration/");
+	define("BASE_URL", "http://localhost/chatBot/");
 	$config['dbname'] = 'calendario';
 	$config['host'] = 'localhost';
 	$config['dbuser'] = 'root';
 	$config['dbpass'] = '';
 
 } else {
-	define('BASE_URL', 'http://geradordesenharandom.com/');
+	define('BASE_URL', 'http://chatBot.com/');
 	$config['dbname'] ='u757591790_marinatur';
 	$config['host'] = 'localhost';
 	$config['dbuser'] = 'u757591790_rfcjoujou';

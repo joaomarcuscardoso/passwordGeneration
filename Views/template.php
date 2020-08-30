@@ -1,3 +1,4 @@
+<!doctype html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -20,18 +21,20 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="<?php echo BASE_URL; ?>">Gerador de senha</a>
+            <a class="navbar-brand" href="<?php echo BASE_URL; ?>">ChatBot</a>
 
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-<!--                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo03">
 
+                <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo BASE_URL; ?>">Home</a>
                     </li>
-
-                </ul> -->
-
-
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo BASE_URL; ?>login">Login</a>
+                    </li>
+                </ul>
+   
+ 
 
             </div>
         </nav>
